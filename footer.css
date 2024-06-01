@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+.site-footer {
+    background-color: rgba(59, 177, 97, 0.2);
+    color: white;
+    padding: 20px 0;
+    width: 1584px;
+    height: 500px;
+}
+
+.fimg {
+    width: 183px;
+    height: 80;
+}
+
+.fimg1 {
+    width: 394px;
+    height: 236px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    font-family: 'Comfortaa';
+    font-size: 19.32px;
+    color: #004C8C;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    color: 151515;
+    text-decoration: none;
+    font-family: 'Comfortaa';
+
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    color: #B3B3B3;
+    font-size: 15.46px;
+    font-family: 'Comfortaa';
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+}
+
+.footerimgs {
+    display: block;
+}
+
+.contact-cards {
+    display: block;
+    gap: 20px;
+    /* Spacing between cards */
+    justify-content: center;
+    /* Center the cards horizontally */
+    padding: 20px;
+    /* Optional: Adds some space around the cards */
+}
+
+.contact-card {
+    background-color: #fff;
+    font-family: 'Comfortaa';
+    color: #151515;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Adds some shadow for depth */
+    border-radius: 10px;
+    padding: 20px;
+    width: 335px;
+}
+
+.contact-cards .contact-card .cdh1 {
+    font-family: 'Comfortaa';
+    color: #004C8C;
+    font-size: 19.12px;
+
+}
+
+.contact-card p {
+    margin: 0 0 10px;
+    /* Adds margin to the bottom of paragraphs */
+    line-height: 1.6;
+    /* Improves readability */
+    font-family: 'Comfortaa';
+}
+
+/* Optionally, remove the bottom margin from the last paragraph in each card */
+.contact-card p:last-child {
+    margin-bottom: 0;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location p {
+    margin: 0 0 10px;
+    /* Adds margin to the bottom of paragraphs */
+    line-height: 1.6;
+    /* Improves readability */
+    font-family: 'Comfortaa';
+    font-size: 15.46px;
+}
+
+.location .locationimg {
+    margin-right: 23px;
+}
+
+.contact {
+    font-family: 'Comfortaa';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cimgs {
+    margin-right: 2px;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon p {
+    font-family: 'Comfortaa';
+    color: #004C8C;
+    font-weight: bold;
+}
+
+.app a {
+    margin-left: 14px;
+    text-decoration: none;
+    font-family: 'Comfortaa';
+    color: #004C8C;
+    font-weight: bold;
+}
+
+.app {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -2px;
+}
+
+.img {
+    background-color: #75e097bd;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.img img {
+    height: 12px;
+    width: 13px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+.site-footer {
+    background-color: rgba(59, 177, 97, 0.2);
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+    /* Adjusted for responsiveness */
+    box-sizing: border-box;
+    /* Ensure padding is included in width */
+}
+
+.fimg {
+    width: 183px;
+    height: 80px;
+    /* Ensure units are specified */
+}
+
+.fimg1 {
+    width: 394px;
+    height: 236px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    font-family: 'Comfortaa';
+    font-size: 19.32px;
+    color: #004C8C;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    color: #151515;
+    /* Ensure color is properly specified */
+    text-decoration: none;
+    font-family: 'Comfortaa';
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    color: #B3B3B3;
+    font-size: 15.46px;
+    font-family: 'Comfortaa';
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+
+    .footer-content,
+    .contact,
+    .location,
+    .icon,
+    .app,
+    .contact-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fimg,
+    .fimg1,
+    .footer-section,
+    .contact-card {
+        width: auto;
+        /* Adjust width to fit mobile devices */
+        margin: 0 10px;
+        /* Add some horizontal margin for small screens */
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+
+    .cimgs {
+        margin-right: 0;
+        /* Adjust margin for mobile */
+    }
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #3BB161;
+    padding: 20px;
+}
+
+/* .mh-100 {
+    max-height: 100% !important;
+} */
+
+.logo {
+    padding-left: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-family: 'Comfortaa';
+    font-size: 20px;
+    padding-left: 25px;
+    padding-bottom: -10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+
+}
+
+a .nav-link:hover {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: white;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: white;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0px;
+    font-family: 'Comfortaa';
+}
+
+ul .dropdown-menu {
+    background-color: #3BB161;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+    padding-right: 30px;
+}
+
+.btn {
+    background-color: #004C8C;
+    color: white;
+    border: none;
+    font-family: 'Comfortaa';
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background-color: #004C8C;
+    color: white;
+    border: none;
+    font-family: 'Comfortaa';
+    border-radius: 30px;
+}
+
+#btn1 {
+    width: 175px;
+    height: 37px;
+}
+
+#btn2 {
+    width: 123px;
+    height: 37px;
+}

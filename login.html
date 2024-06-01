@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>Login - Promunim</title>
+</head>
+
+<body>
+
+    <body ng-app="loginApp" ng-controller="LoginController">
+        <form action="" id="loginbynumber">
+            <div class="body-container" ng-show="isVisible">
+                <div class="login-container">
+                    <img src="Frame (1).png" class="cutimg" alt="" ng-click="hidePage()">
+                    <h2>Login / Register</h2>
+                    <div class="login-method">
+
+                        <div class="phone-login">
+                            <div class="phone-input-container">
+                                <div class="form-group">
+                                    <input type="text" id="form_name1" name="form_name1" ng-model="ctrl.user.form_name1"
+                                        required ng-pattern="/^[0-9]{10}$/" maxlength="10" placeholder="+91">
+                                    <label for="form_name1"><img src="Rectangle 62.png"> Phone Number<span
+                                            class="gl-form-asterisk"></span></label>
+
+                                </div>
+
+                                <a href="index.html"><button class="get-otp">Get OTP</button></a>
+                            </div>
+
+                            <div class="or-divider">
+                                <img src="Line 5.png" class="line1" alt="">
+                                <p class="or">OR</p>
+                                <img src="Line 5.png" class="line2" alt="">
+                            </div>
+                            <div class="qr-login">
+                                <img src="qr-code-scan-icon 1.png" alt="">
+                                <a href="loginqr.html" class="qr">Login by Scanning QR Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </form>
+        <script>
+            angular.module('loginApp', [])
+                .controller('LoginController', function ($scope) {
+                    // Initialize your form data, if necessary
+                    $scope.formData = {};
+
+                    // Function to execute on form submission
+                    $scope.submitForm = function () {
+                        if ($scope.phoneNumberForm.$valid) {
+                            alert('Form is valid!');
+                        } else {
+                            alert('Form is not valid. Please enter a valid phone number.');
+                        }
+                    };
+                });
+            angular.module('loginApp', [])
+                .controller('LoginController', function ($scope) {
+                    // Initialize visibility control variable
+                    $scope.isVisible = true;
+
+                    // Function to toggle page visibility
+                    $scope.hidePage = function () {
+                        $scope.isVisible = !$scope.isVisible;
+                    };
+                });
+
+        </script>
+    </body>
+
+</html>

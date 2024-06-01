@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <title>Promunim</title>
+</head>
+
+<body ng-controller="myCtrl">
+  <header class="app-header">
+    <div class="logo">
+      <a href="header.html"> <img src="Logo-01.png"></a>
+    </div>
+    <nav>
+      <ul>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle">Features <img src="Vector.png" alt="Features dropdown"></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Fully customisable billing</a></li>
+            <li><a href="#">All Billing Features</a></li>
+            <li><a href="#">Manage your business in clicks</a></li>
+            <li><a href="#">Super-simple GST Filing, E-invoicing</a></li>
+            <li><a href="#">Grow your sales with Business </a></li>
+            <li><a href="#">Marketing Bonus Features</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Pricing</a></li>
+        <li class="dropdown1">
+          <a href="#" class="dropdown-toggle1">Knowledge Center <img src="Vector.png" alt="Features dropdown"></a>
+          <ul class="dropdown-menu1">
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Services</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="buttons">
+      <button class="btn1"><a href="talktosale.html">Talk To Sales</a></button>
+      <button class="btn2"><a href="login.html">Login</a></button>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="box">
+      <div class="box1">
+        <p>Simple and Smart</p><br>
+        <p class="p2">GST Billing, Accounting,<br>
+          Stock Management</p><br>
+        <p class="p3"><span>18k+ small businesses</span> 
+          prefer ProBilling as their <br>
+          billing software for GST billing in customised <br>
+          billing formats.</p><br>
+        <div class="mobile-number-input">
+          <input type="number" placeholder="IN +91 - Enter Mobile Number" required>
+          <button type="submit"><img src="Vector1.png" alt="Submit"></button>
+        </div><br>
+        <div class="app">
+          <img src="pngegg-01.png" alt="">
+          <img src="pngegg-02.png" alt="">
+        </div><br>
+        <text>RATING</text>
+        <text>DOWNLOAD</text>
+        <div class="num">
+          <num>4.5</num><br>
+          <img src="Line 2.png">
+          <num1>900+</num1>
+        </div>
+        <img id="img2" src="Frame.png" alt="">
+
+      </div>
+      <div class="box2">
+        <img src="Mockup 2.png" alt="">
+      </div>
+
+    </div>
+  </div><br><br><br>
+
+
+  
+  <div class="hero2">
+    <p class="hero2p1">One software for<br>
+      all your business needs</p>
+    <p class="hero2p2">Designed & developed for the growing small & medium <br>
+      businesses of India! </p>
+  </div>
+  <div class="hero3">
+    <div class="herobox3">
+      <img src="screen mockup 3.png" class="hero3img1" alt="">
+      <img src="Rectangle.png" class="hero3img2" alt="">
+    </div>
+  </div><br>
+
+  </div>
+  <div class="hero4">
+    <p class="hero4p1">Your bill, Your Brand & More!</p>
+    <p class="hero4p2">Fully customisable GST & Non-GST invoicing with multiple theme options only on ProBilling</p>
+  </div><br>
+
+  <div class="hero5">
+    <div class="herobox5">
+      <div class="imgs1">
+        <img src="Ellipse 35.png" class="hero5img1" alt="">
+        <img src="Ellipse 34.png" class="hero5img2" alt="">
+      </div>
+      <div class="btn">
+        <a href="" class="thermal">Thermal Print</a>
+        <a href="" class="a4">A4 Print</a>
+        <a href="" class="a5">A5 Print</a>
+      </div>
+      <div class="imgs2">
+        <img src="Ellipse 32.png" class="hero5img3" alt="">
+        <img src="Ellipse 33.png" class="hero5img4" alt="">
+      </div>
+    </div>
+
+  </div><br>
+
+  <div class="hero6">
+    <div class="herobox6">
+      <div class="p">
+        <p>Simple and Smart</p><br>
+        <p class="p2">GST Billing, Accounting,<br>
+          Stock Management</p><br>
+        <p class="p3"><span>18k+ small businesses</span> 
+          prefer ProBilling as their <br>
+          billing software for GST billing in customised
+          billing <br>formats.</p><br>
+        <button class="getstart"><a href="">Get Started <img src="Vector1.png" alt=""> </a></button>
+      </div>
+      <div class="imgscroll">
+        <img src="Mask group (1).png" alt="">
+        <img src="3 1.png" alt="">
+      </div>
+
+    </div>
+  </div><br>
+  <p class="text1">All-in-one billing software to help grow</p>
+  <p class="text2">your business 4.2x</p>
+
+  <div class="hero7">
+    <div class="herobox7">
+      <div class="hero7btn">
+        <a href="#billing" class="billing" onclick="setTab('billing')">Billing</a>
+        <a href="#inventory" class="inventory" onclick="setTab('inventory')">Inventory Management</a>
+        <a href="#business" class="business" onclick="setTab('business')">Business Management</a>
+        <a href="#bonus" class="bonus" onclick="setTab('bonus')">Bonus Features</a>
+      </div>
+    </div>
+
+    <div class="card1" id="billing" ng-show="isSet('billing')">
+      <div class="card-container" id="billing">
+        <div class="card">
+          <img src="multiple-bank-accounts 2.png" alt="Name1">
+          <p>Multiple Bank Account</p>
+        </div>
+        <div class="card">
+          <img src="recover-deleted-invoices 2.png" alt="Name2">
+          <p>Recover Deleted Invoices</p>
+        </div>
+        <div class="card">
+          <img src="image 7.png" alt="Name3">
+          <p>Bulk Upload/ Edit</p>
+        </div>
+        <div class="card">
+          <img src="image 8.png" alt="Name4">
+          <p>Automated Billing</p>
+        </div>
+        <div class="card">
+          <img src="image 9.png" alt="Name5">
+          <p>Foreign Currency</p>
+        </div>
+        <div class="card">
+          <img src="image 10.png" alt="Name6">
+          <p>Audit Trail</p>
+        </div>
+      </div>
+
+
+      <div class="card2" id="investory">
+        <div class="card-container" id="billing">
+          <div class="card">
+            <img src="multiple-bank-accounts 2.png" alt="Name1">
+            <p>Management Stock Items</p>
+          </div>
+          <div class="card">
+            <img src="recover-deleted-invoices 2.png" alt="Name2">
+            <p>Godown Management</p>
+          </div>
+          <div class="card">
+            <img src="image 7.png" alt="Name3">
+            <p>Batching</p>
+          </div>
+          <div class="card">
+            <img src="image 8.png" alt="Name4">
+            <p>Serialization</p>
+          </div>
+          <div class="card">
+            <img src="image 9.png" alt="Name5">
+            <p>Generate and print Barcodes</p>
+          </div>
+          <div class="card">
+            <img src="image 10.png" alt="Name6">
+            <p>Inventory Custom Fields</p>
+          </div>
+        </div>
+      </div>
+      <div class="card3" id="business">
+        <div class="card-container" id="billing">
+          <div class="card">
+            <img src="multiple-bank-accounts 2.png" alt="Name1">
+            <p>Multiple Device logins</p>
+          </div>
+          <div class="card">
+            <img src="recover-deleted-invoices 2.png" alt="Name2">
+            <p>Multiple Businesses</p>
+          </div>
+          <div class="card">
+            <img src="image 7.png" alt="Name3">
+            <p>Multiple User</p>
+          </div>
+          <div class="card">
+            <img src="image 8.png" alt="Name4">
+            <p>User Role Settings</p>
+          </div>
+          <div class="card">
+            <img src="image 9.png" alt="Name5">
+            <p>Staff Attendance And Payroll</p>
+          </div>
+          <div class="card">
+            <img src="image 10.png" alt="Name6">
+            <p>Business Reoprts</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="card2" id="bonus" ng-show="isSet('bonus')">
+        <div class="card-container" id="billing">
+          <div class="card">
+            <img src="multiple-bank-accounts 2.png" alt="Name1">
+            <p>Management Stock Items</p>
+          </div>
+          <div class="card">
+            <img src="recover-deleted-invoices 2.png" alt="Name2">
+            <p>Godown Management</p>
+          </div>
+          <div class="card">
+            <img src="image 7.png" alt="Name3">
+            <p>Batching</p>
+          </div>
+          <div class="card">
+            <img src="image 8.png" alt="Name4">
+            <p>Serialization</p>
+          </div>
+          <div class="card">
+            <img src="image 9.png" alt="Name5">
+            <p>Generate and print Barcodes</p>
+          </div>
+          <div class="card">
+            <img src="image 10.png" alt="Name6">
+            <p>Inventory Custom Fields</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <text3>GST Compliance has never been this easy</text3>
+    <div class="hero8">
+      <div class="herobox8">
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-md-4">
+              <div id="list-example" class="list-group">
+                <a class="list-group-item list-group-item-action active" data-target="#list-item2">GSTR Filing</a>
+                <a class="list-group-item list-group-item-action" data-target="#list-item-2">E-Invoicing</a>
+                <a class="list-group-item list-group-item-action" data-target="#list-item-3">E-Way Billing</a>
+                <a class="list-group-item list-group-item-action" data-target="#list-item-4">Data Export Tally</a>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="content-area">
+                <div class="section show" id="list-item2">
+                  <img src="image 1.png" alt="">
+                  <p>Export your GSTR1 data in a simple format (JSON) and easily file your GST returns
+                    for hassle-free accounting.<br>
+                    <button class="getstart1"><a href="">Get Started </a><img src="Vector1.png" class="getstratimg1"
+                        alt=""></button>
+                  </p>
+                </div>
+                <div class="section" id="list-item-2">
+                  <img src="image 1.png" alt="">
+                  <p>Effortlessly Generate e-invoice in a single click, with automatic GSTR1 reconciliation, and
+                    conveniently cancle e-voices directly through myBillBook for seamless e-Invoicing
+                    <br>
+                    <button class="getstart1"><a href="">Get Started </a><img src="Vector1.png" class="getstratimg1"
+                        alt=""></button>
+                  </p>
+                </div>
+                <div class="section" id="list-item-3">
+                  <img src="image 1.png" alt="">
+                  <p>easily Generate and Downlaod E-way bills in less than 30 seconds by adding vehicles detail for
+                    smooth transportation
+                    <br>
+                    <button class="getstart1"><a href="">Get Started </a><img src="Vector1.png" class="getstratimg1"
+                        alt=""></button>
+                  </p>
+                </div>
+                <div class="section" id="list-item-4">
+                  <img src="image 1.png" alt="">
+                  <p>Easily Export business data to Tally eliminating the need for manual entries from your CAs<br>
+                    <button class="getstart1"><a href="">Get Started </a><img src="Vector1.png" class="getstratimg1"
+                        alt=""></button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  </div><br>
+  <text6>Your personal marketing & sales assistant, right in your pocket!</text6><br>
+  <text7>Get more customers, get more </text7><br>
+  <text71>from your customers</text71>
+  <div class="hero9">
+    <div class="herobox9">
+      <div class="hero9sec1">
+
+        <div class="herobox91">
+          <div class="icontext">
+            <div class="icontextimg"><img src="Vector (10).png"></div>
+            <p>WhatsApp & SMS <br> Marketing</p>
+          </div>
+          <div class="icontext">
+            <div class="icontextimg"><img src="Group (10).png"></div>
+            <p>Online Store & <br> Digital<br>Catalogue</p>
+          </div>
+          <div class="icontext">
+            <div class="icontextimg"><img src="Group (9).png"></div>
+            <p>Service Reminders <br>& CRM</p>
+          </div>
+        </div>
+
+        <div class="herobox92">
+          <div class="icontext92">
+            <div class="icontextimg92"><img src="Group (8).png"></div>
+            <p>Loyalty & Rewards Program</p>
+          </div>
+          <div class="icontext92">
+            <div class="icontextimg92"><img src="Group (7).png"></div>
+            <p>Personalized Greetings</p>
+          </div>
+          <div class="icontext92">
+            <div class="icontextimg92"><img src="Group (6).png"></div>
+            <p>Professional Business Cards</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero9sec2">
+        <img class="hero9img" src="marketing 2.png" alt="">
+      </div>
+    </div>
+  </div><br>
+
+  <text8>Supporting businesses from a wide</text8><br>
+  <text81> range of industries</text81><br><br>
+  <div class="hero10">
+    <div class="herobox10">
+      <div class="side1">
+        <button><a>Pharma</a></button><br>
+        <button><a>Automobile</a></button><br>
+        <button><a>General Store</a></button><br>
+        <button><a>Agriculture</a></button>
+      </div>
+      <div class="side2">
+        <img src="Testimonial-01 1.png" alt="">
+        <!-- <img src="Vector (12).png" class="side2img2"> -->
+      </div>
+    </div>
+
+  </div><br>
+  <text9>A lot more than you can imagine</text9><br><br>
+
+  <div class="hero11">
+    <div class="herobox11">
+      <!-- First Row of 3 Cards -->
+      <div class="cards-row11">
+        <div class="card11">
+          <div class="cardrow1img"><img src="Frame (3).png" class="cardimg111" alt=""></div>
+          <p>App available in English, Hindi,
+            Hinglish, Gujarati, Tamil</p>
+        </div>
+        <div class="card11">
+          <div class="cardrow1img"><img src="chat-icon 1.png" class="cardimg111" alt=""></div>
+          <p>Customer Support in your preferred language</p>
+        </div>
+        <div class="card11">
+          <div class="cardrow1img"><img src="whatsapp-icon 1.png" class="cardimg111" alt=""></div>
+          <p>24x7 support through Call, WhatApp, Chat or Email</p>
+        </div>
+
+      </div>
+
+      <!-- Second Row of 4 Cards -->
+      <div class="cards-row112">
+        <div class="cr1card">
+          <div class="crd1cardimg"><img src="cloud-upload-icon 1.png" class="cardimg112"></div>
+          <p>Secure data storage <br>
+            withfull encryption <br>
+            on Cloud</p>
+        </div>
+        <div class="cr1card">
+          <div class="crd1cardimg"><img src="result-pass-icon 1.png" class="cardimg112"></div>
+          <p>Transparent Policies & <br>
+            No Hidden Charges</p>
+        </div>
+        <div class="cr1card">
+          <div class="crd1cardimg"><img src="computer-repair-icon 1.png" class="cardimg112" alt=""></div>
+          <p>Regular Software <br>
+            Updates & Feature <br>
+            Upgrades</p>
+        </div>
+        <div class="cr1card">
+          <div class="crd1cardimg"><img src="couple-icon 1.png" class="cardimg112"></div>
+          <p>Be a part of MSME <br>
+            exclusive <br>community</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="hero12">
+    <div class="herobox12">
+      <div class="hero12section1">
+        <p class="hero12p">
+          Start using <br>
+          ProBilling today
+        </p>
+        <div class="mobile-number-input1">
+          <input type="number" placeholder="IN +91 - Enter Mobile Number" required>
+          <button type="submit"><img src="Vector1.png" alt="Submit"></button>
+        </div><br>
+        <p class="hero12p1">Download app on</p>
+        <div class="appbtns">
+          <img src="pngegg-0111 (1).png" alt="">
+          <img src="pngegg-0222 (2).png" alt="">
+        </div><br>
+        <div class="textrates">
+          <textrate>RATING</textrate>
+          <textrate1>DOWNLOAD</textrate1>
+        </div>
+        <div class="rates">
+          <number>4.5</number><br>
+          <img src="Line 3.png">
+          <number1>900+</number1>
+        </div>
+        <div class="star">
+          <img class="starimg" src="Frame 1.png" alt="">
+        </div>
+      </div>
+      <img src="9017779_1095 1.png" alt="">
+    </div>
+  </div><br><br>
+
+  <text10>Frequently Asked Questions</text10><br>
+  <text11>Quick answers to all the questions you may have</text11><br>
+
+  <div class="faq-container" onclick="toggleFAQ()">
+    <div class="faq-question">
+      <span>What is billing software?</span>
+      <span class="faq-arrow"><img class="faq-arrowimg" src="Vector (13).png" alt="">
+      </span>
+    </div>
+    <div class="faq-answer">
+      Billing software refers to computer programs that handle the tracking of billable products and services delivered
+      to a customer or set of customers. It helps in creating invoices and financial statements, managing accounts
+      receivable, and ensuring that payments are collected in time. Such software is crucial for streamlining the
+      billing process, improving efficiency, and reducing errors in financial operations.
+    </div><br>
+    <div class="underline"></div>
+  </div>
+
+
+  <!-- -----------------------------footer start----------------------------- -->
+
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footerimgs">
+        <img src="Group (11).png" class="fimg"><br>
+        <img src="Rectangle.png" class="fimg1">
+      </div>
+      <div class="footer-section">
+        <h4>Menu</h4>
+        <ul>
+          <li style="margin-bottom:12px;"><a href="#">Features</a></li>
+          <li style="margin-bottom:12px;"><a href="#">Pricing</a></li>
+          <li style="margin-bottom:12px;"><a href="#">Knowledge Center</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Products</h4>
+        <ul class="product">
+          <li style="margin-bottom:12px;"><a href="#">Invoicing Software</a></li>
+          <li style="margin-bottom:12px;"><a href="#">Inventory Management Software<a></li>
+          <li style="margin-bottom:12px;"><a href="#">Retail POS Software</a></li>
+          <li style="margin-bottom:12px;"><a href="#">Accounting Software</a></li>
+          <li style="margin-bottom:12px;"><a href="#">Billing Software for PC</a></li>
+          <li style="margin-bottom:12px;"><a href="#">Offline Billing Software</a></li>
+          <li style="margin-bottom:12px;"><a href="#">E-Invoicing Software</a></li>
+          <li style="margin-bottom:12px;"><a href="#">e-Way Bills Software</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <div class="contact-cards">
+          <!-- Card 1 -->
+          <div class="contact-card">
+            <p class="cdh1">Get In Touch</p>
+            <div class="location">
+              <img src="Group.png" class="locationimg" height="40px" width="60px">
+              <p class="address">No 13, S, IBG House Sharv Plaza, 295, Manjri Road, Hadapsar, Pune, Maharashtra 411028
+              </p>
+            </div>
+          </div><br>
+
+          <!-- Card 2 -->
+          <div class="contact-card">
+            <div class="contact">
+              <div class="cimgs" style="display: block; margin-right: 20px;">
+                <img src="Group (1).png" height="30px" width="30px" alt=""><br><br>
+                <img src="Vector (5).png" height="30px" width="30px" style="margin-top: -7px;" alt="">
+              </div>
+              <p>Toll Free Number:18002661294<br>
+                Phone Number: 020 67491919<br>
+                Mail ID:Connect@ProMunim.com</p>
+            </div>
+          </div><br><br>
+          <div class="icon">
+            <p>Connect with Us</p>
+            <div class="img"><img src="Vector (7).png" alt=""></div>
+            <div class="img"><img src="Group (4).png" alt=""></div>
+            <div class="img"><img src="Vector (8).png" alt=""></div>
+            <div class="img"><img src="Vector (9).png" alt=""></div>
+            <div class="img"><img src="Group (5).png" alt=""></div>
+          </div><br>
+
+          <div class="app1">
+            <a class="download" href="#">Download App</a>
+            <img class="downloadimg1" src="pngegg-011.png" alt="">
+            <img class="downloadimg2" src="pngegg-022.png" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright © 2022 ProMunim. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- --------------------------------footer end------------------------------------ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    // AngularJS application and controller definition
+    var app = angular.module('myApp', []);
+    app.controller('TabController', function ($scope) {
+      $scope.selectedTab = 'billing'; // Set default tab
+
+      $scope.setTab = function (tabName) {
+        $scope.selectedTab = tabName;
+      };
+
+      $scope.isSet = function (tabName) {
+        return $scope.selectedTab === tabName;
+      };
+    });
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const items = document.querySelectorAll('#list-example .list-group-item');
+
+      items.forEach(item => {
+        item.addEventListener('click', function (e) {
+          e.preventDefault(); // Prevent default anchor behavior
+
+          const targetId = this.getAttribute('data-target');
+          const sections = document.querySelectorAll('.section');
+
+          // Hide all sections
+          sections.forEach(section => {
+            section.style.display = 'none';
+          });
+
+          // Show the targeted section
+          const targetSection = document.querySelector(targetId);
+          if (targetSection) {
+            targetSection.style.display = 'block';
+          }
+
+          // Update active class for the clicked item
+          items.forEach(i => i.classList.remove('active'));
+          this.classList.add('active');
+        });
+      });
+    });
+  </script>
+  <script>
+    function toggleFAQ() {
+      var container = document.querySelector('.faq-container');
+      container.classList.toggle('expanded');
+
+      var answer = document.querySelector('.faq-answer');
+      // Dynamically adjust max-height for smoother transitions
+      if (container.classList.contains('expanded')) {
+        answer.style.maxHeight = answer.scrollHeight + "px";
+      } else {
+        answer.style.maxHeight = 0;
+      }
+    }
+  </script>
+</body>
+
+</html>

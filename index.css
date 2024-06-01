@@ -1,0 +1,1146 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+/* navbar css start */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #3BB161;
+    padding: 20px;
+}
+
+/* .mh-100 {
+    max-height: 100% !important;
+} */
+
+.logo {
+    padding-left: 1px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-family: 'Comfortaa';
+    font-size: 20px;
+    padding-left: 50px;
+    padding-bottom: -10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+
+}
+
+a .nav-link:hover {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: white;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: white;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0px;
+    font-family: 'Comfortaa';
+}
+
+ul .dropdown-menu {
+    background-color: #3BB161;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+    padding-right: 30px;
+}
+
+.btn {
+    background-color: #004C8C;
+    color: white;
+    border: none;
+    font-family: 'Comfortaa';
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background-color: #004C8C;
+    color: white;
+    border: none;
+    font-family: 'Comfortaa';
+    border-radius: 30px;
+}
+
+#btn1 {
+    width: 175px;
+    height: 37px;
+    font-size: 16px;
+}
+
+#btn2 {
+    width: 123px;
+    height: 37px;
+    font-size: 16px;
+}
+
+/* navbar css end */
+
+.hero {
+    /* width: 100%;  */
+    height: 614px;
+    display: flex;
+    justify-content: center;
+    /* Center the box horizontally */
+    align-items: center;
+    /* Center the box vertically */
+}
+
+
+.box {
+    width: 96%;
+    /* max-width: 1460px; */
+    height: 614px;
+    background-color: rgba(0, 76, 140, 0.17);
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 7px;
+}
+
+.box1 {
+    padding: 30px;
+}
+
+.box3 img {
+    margin-left: 264px;
+    margin-top: 50px;
+
+}
+
+.box2 img {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 51px;
+}
+
+.box p {
+    font-size: 22px;
+    font-family: 'Comfortaa';
+    color: #004C8C;
+    /* padding: 20px; */
+}
+
+#p1 {
+    color: #3BB161;
+    font-size: 28px;
+}
+
+.mobile-number-input img {
+    width: 25px;
+}
+
+.box .p2 {
+    line-height: 50px;
+    font-weight: bold;
+    color: #3BB161;
+    font-size: 30px;
+    font-family: 'Comfortaa';
+}
+
+.box .p3 {
+    font-size: 18px;
+    font-family: 'Comfortaa';
+    line-height: 33px;
+}
+
+.p3 span {
+    color: #3BB161;
+}
+
+.mobile-number-input {
+    display: flex;
+    align-items: center;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding: 8px 12px;
+    width: 403px;
+    height: 65px;
+}
+
+.mobile-number-input input {
+    flex: 1;
+    font-size: 16px;
+    background-color: transparent;
+    color: #333;
+    padding: 0;
+    font-family: 'Comfortaa';
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    border-color: #3BB161;
+    font-family: 'Comfortaa';
+
+    &::placeholder {
+        color: #999;
+    }
+}
+
+.mobile-number-input button {
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    background-color: #3BB161;
+    cursor: pointer;
+    width: 93px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.mobile-number-input button img {
+    height: 26px;
+    /* Adjust image height as needed */
+    width: 17px;
+    /* Adjust image width as needed */
+    transition: filter 0.2s ease-in-out;
+    /* Smooth transition for hover effect */
+    filter: grayscale(100%);
+    /* Initially grayscale image */
+}
+
+text {
+    color: #636363;
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    font-size: 10px;
+    margin-left: 38px;
+    line-height: 20px;
+}
+
+text {
+    color: #636363;
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    font-size: 11px;
+    margin-right: -31px;
+    margin-left: 57px;
+}
+
+.num {
+    display: flex;
+    justify-content: left;
+    margin-left: 27px;
+}
+
+.num num {
+    font: bold;
+    font-size: 14px;
+    font-family: 'Comfortaa';
+    margin-left: 52px;
+}
+
+.num num1 {
+    font: bold;
+    font-size: 14px;
+    font-family: 'Comfortaa';
+    margin-left: 0px;
+}
+
+.num img {
+    padding-inline: 14px;
+    margin-top: -34px;
+    height: 70px;
+}
+
+#img2 {
+    margin-left: 59px;
+    margin-bottom: 38px;
+}
+
+/* text in center start */
+
+.text-center {
+    font-size: 33px;
+    font-family: 'Comfortaa';
+    color: #3BB161;
+}
+
+h6 {
+    font-size: 22px;
+    font-family: 'Comfortaa';
+    color: #004C8C;
+    text-align: center;
+}
+
+/* text in center end*/
+
+
+/* container start */
+
+.container {
+    width: 96%;
+    max-width: 1465px;
+    height: 476px;
+    background-color: rgba(59, 177, 97, 0.15);
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 31px;
+}
+
+.float-start {
+    float: right !important;
+}
+
+.float-bottom {
+    margin-top: 155px;
+    margin-left: 454px;
+    position: absolute;
+}
+
+.float-end {
+    float: left !important;
+    margin-top: 20px;
+}
+
+.float-top {
+    margin-top: -328px;
+    margin-left: -60px;
+}
+
+/* container end */
+
+
+/* text center start 2 */
+
+.text-align .text-center {
+    margin-top: 42px;
+}
+
+/* text center start 2 end */
+
+.box4 {
+    width: 96%;
+    /* width: 1467px; */
+    height: 573px;
+    background-color: rgba(0, 76, 140, 0.17);
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 27px;
+}
+
+.circle1 img {
+    margin-top: 90px;
+}
+
+.circle2 img {
+    position: absolute;
+    margin-top: -460px;
+}
+
+.circle3 img {
+    margin-left: 857px;
+    margin-top: 70px;
+}
+
+.circle4 img {
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -450px;
+}
+
+.btn-group {
+    width: 570px;
+    height: 50px;
+    margin-left: -5px;
+    margin-top: 10px;
+}
+
+.multiple-button {
+    width: 590px;
+    height: 70px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: -420px;
+    border-radius: 10px;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+    width: 400px;
+    border-radius: 10px;
+    border-color: #3BB161;
+    font-family: 'Comfortaa';
+}
+
+.btn1:hover {
+    background-color: #3BB161;
+    color: white;
+}
+
+.btn2:hover {
+    background-color: #3BB161;
+    color: white;
+}
+
+.btn3:hover {
+    background-color: #3BB161;
+    color: white;
+}
+
+#image1 {
+    margin-top: 30px;
+}
+
+#image2 {
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+#image3 {
+    margin-left: -290px;
+    margin-top: 100px;
+}
+
+/* container end */
+
+.box5 {
+    width: 96%;
+    /* width: 1465px; */
+    height: 327px;
+    background-color: rgba(59, 177, 97, 0.15);
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-radius: 10px;
+    margin-top: -10px;
+    margin-left: 28px;
+}
+
+.box5 p {
+    margin-left: 105px;
+}
+
+.box5 .text1 {
+    font-family: 'Comfortaa';
+    font-size: 22px;
+    color: #004C8C;
+}
+
+#card {
+    background-color: #3BB161;
+    color: white;
+    border: none;
+    font-family: 'Comfortaa';
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    margin-top: 14px;
+    margin-left: 70px;
+}
+
+/* ------text end------------- */
+
+/* button group start */
+.herobox7 {
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    max-width: 1516px;
+    margin-left: 27px;
+}
+
+.hero7btn {
+    background-color: #E8EAEA;
+    width: 96%;
+    height: 99px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 14.28px;
+    align-items: center;
+    margin-left: -33px;
+}
+
+.hero7btn .billing,
+.hero7btn .inventory,
+.hero7btn .business,
+.hero7btn .bonus {
+    display: inline-block;
+    padding: 10px 20px;
+    /* Add padding to make the links look more like buttons */
+    line-height: 31.4px;
+    border: 2px solid transparent;
+    /* Add a border that matches the background on hover */
+    border-radius: 10px;
+    font-family: 'Comfortaa';
+    font-size: 20.94px;
+    color: #636363;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    /* Smooth transition for hover effect */
+}
+
+/* Hover Effects */
+.hero7btn .billing:hover,
+.hero7btn .inventory:hover,
+.hero7btn .business:hover,
+.hero7btn .bonus:hover {
+    background-color: white;
+    /* Background color on hover */
+    color: #414042;
+    /* Text color on hover */
+    border-color: #414042;
+    /* Border color on hover to match the text color */
+}
+
+/* button group end */
+/* card start  */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* Adjust this value as needed */
+}
+
+.card .card2 {
+    width: 400.75px;
+    height: 269px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #8f9292;
+    border-radius: 9.2px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card p {
+    margin: 10px 0px;
+    font-size: 16px;
+    color: #333;
+    height: 52px;
+    width: 401px;
+    background-color: #3BB161;
+    border-bottom: 9.2px;
+    text-align: center;
+    border-radius: 0px 0px 9.2px 9.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20.49px;
+}
+
+/* card end */
+/* container start */
+
+.box6 {
+    width: 96%;
+    /* width: 1465px; */
+    height: 515px;
+    background-color: rgba(0, 76, 140, 0.17);
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 29px;
+}
+
+.box7 {
+    width: 100%;
+    width: 1074px;
+    height: 464px;
+    background-color: white;
+    margin-left: 350px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.image-set {
+    margin-left: 330px;
+}
+
+.image-set1 {
+    width: 100%;
+    width: 1074px;
+    height: 163px;
+    background-color: rgba(59, 177, 97, 0.15);
+    margin-top: 14px;
+    border-radius: 10px;
+}
+
+.text-responsive {
+    font-family: 'Comfortaa';
+    font-size: 19.09px;
+    margin-left: 30px;
+}
+
+#card1 {
+    background-color: #3BB161;
+    color: white;
+    border: none;
+    font-family: 'Comfortaa';
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    margin-left: 30px;
+    font-size: 21px;
+    margin-top: 17px;
+}
+
+.btn10 {
+    width: 278px;
+    height: 99px;
+    margin-left: -310px;
+    margin-top: -490px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Comfortaa';
+    font-size: 21px;
+}
+
+.btn10:hover {
+    background-color: rgba(59, 177, 97, 0.15);
+}
+
+.btn11 {
+    width: 278px;
+    height: 99px;
+    border: none;
+    margin-left: -310px;
+    border-radius: 10px;
+    font-family: 'Comfortaa';
+    font-size: 21px;
+}
+
+.btn11:hover {
+    background-color: rgba(59, 177, 97, 0.15);
+}
+
+
+.btn12 {
+    width: 278px;
+    height: 99px;
+    border: none;
+    margin-left: -310px;
+    border-radius: 10px;
+    font-family: 'Comfortaa';
+    font-size: 21px;
+}
+
+.btn12:hover {
+    background-color: rgba(59, 177, 97, 0.15);
+}
+
+.btn13 {
+    width: 278px;
+    height: 99px;
+    border: none;
+    margin-left: -310px;
+    border-radius: 10px;
+    font-family: 'Comfortaa';
+    font-size: 21px;
+}
+
+.btn13:hover {
+    background-color: rgba(59, 177, 97, 0.15);
+}
+
+/* container end */
+/* text in center start */
+
+.text-align2 {
+    color: #004C8C;
+    font-size: 24px;
+}
+
+.text-align3 {
+    color: #3BB161;
+    margin-top: 10px;
+}
+
+.text-center .text-align3 {
+    margin-top: -10px;
+}
+
+/* text in center end */
+
+.box8 {
+    width: 96%;
+    /* width: 1466px; */
+    height: 518px;
+    background-color: rgba(59, 177, 97, 0.15);
+    border-radius: 10px;
+    margin-left: 28px;
+}
+
+.box8 img {
+    margin-left: 82px;
+    margin-top: 14px;
+    width: 1280px;
+}
+
+.box9 {
+    width: 96%;
+    /* width: 1460px; */
+    height: 518px;
+    background-color: rgba(0, 76, 140, 0.17);
+    border-radius: 10px;
+    margin-left: 28px;
+}
+
+.box9 img {
+    margin-left: 836px;
+}
+
+.btn14 {
+    width: 100%;
+    width: 624px;
+    height: 104px;
+    border: none;
+    margin-top: -600px;
+    margin-left: 30px;
+    background-color: white;
+    font-family: 'Comfortaa';
+}
+
+.btn15 {
+    width: 100%;
+    width: 624px;
+    height: 104px;
+    border: none;
+    margin-left: 30px;
+    background-color: white;
+    font-family: 'Comfortaa';
+    margin-top: 18px;
+}
+
+.btn16 {
+    width: 100%;
+    width: 624px;
+    height: 104px;
+    border: none;
+    margin-left: 30px;
+    background-color: white;
+    font-family: 'Comfortaa';
+    margin-top: 18px;
+}
+
+.btn17 {
+    width: 100%;
+    width: 624px;
+    height: 104px;
+    border: none;
+    margin-left: 30px;
+    background-color: white;
+    font-family: 'Comfortaa';
+    margin-top: 18px;
+    ;
+}
+
+.box10 {
+    width: 96%;
+    /* width: 1460px; */
+    height: 547px;
+    background-color: rgba(59, 177, 97, 0.15);
+    border-radius: 10px;
+    margin-left: 28px;
+}
+
+.col-sm-4 {
+    width: 400px;
+    height: 230px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 66px;
+    border-radius: 10px;
+}
+
+.col-sm-3 {
+    width: 299px;
+    height: 230px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 55px;
+    border-radius: 10px;
+}
+
+.box11 {
+    width: 100%;
+    width: 1316px;
+    height: 759px;
+    border-radius: 10px;
+    background-color: rgba(0, 76, 140, 0.17);
+    margin-left: 20px;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #004C8C;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    padding-left: 257px;
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 162%;
+    left: 49px;
+    margin-top: .125rem;
+}
+
+.bottom-aligned-p {
+    position: absolute;
+    bottom: -11px;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+    font-family: 'Comfortaa';
+    font-size: 19.24px;
+}
+
+.background_image {
+    margin-top: 10px;
+}
+
+.upper_image {
+    margin-left: -60px;
+}
+
+.phone_center {
+    margin-top: 200px;
+}
+
+.small_text {
+    color: #004C8C;
+    font-size: 24px;
+}
+
+.app_store {
+    margin-left: 126px;
+    position: absolute;
+}
+
+
+/* footer css start */
+
+
+.site-footer {
+    background-color: rgba(59, 177, 97, 0.2);
+    color: white;
+    padding: 20px 0;
+    width: 1584px;
+    height: 500px;
+}
+
+.fimg {
+    width: 183px;
+    height: 80;
+}
+
+.fimg1 {
+    width: 394px;
+    height: 236px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section h4 {
+    margin-bottom: 30px;
+    font-family: 'Comfortaa';
+    font-size: 19.32px;
+    color: #004C8C;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    color: 151515;
+    text-decoration: none;
+    font-family: 'Comfortaa';
+
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    color: #B3B3B3;
+    font-size: 15.46px;
+    font-family: 'Comfortaa';
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+}
+
+.footerimgs {
+    display: block;
+}
+
+.contact-cards {
+    display: block;
+    gap: 20px;
+    /* Spacing between cards */
+    justify-content: center;
+    /* Center the cards horizontally */
+    padding: 20px;
+    /* Optional: Adds some space around the cards */
+}
+
+.contact-card {
+    background-color: #fff;
+    font-family: 'Comfortaa';
+    color: #151515;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 17px;
+    width: 438.67px;
+    height: 135px;
+}
+
+.contact-cards .contact-card .cdh1 {
+    font-family: 'Comfortaa';
+    color: #004C8C;
+    font-size: 19.12px;
+
+}
+
+.contact-card p {
+    margin: 0 0 10px;
+    /* Adds margin to the bottom of paragraphs */
+    line-height: 1.6;
+    /* Improves readability */
+    font-family: 'Comfortaa';
+}
+
+/* Optionally, remove the bottom margin from the last paragraph in each card */
+.contact-card p:last-child {
+    margin-bottom: 0;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location p {
+    margin: 0 0 10px;
+    /* Adds margin to the bottom of paragraphs */
+    line-height: 1.6;
+    /* Improves readability */
+    font-family: 'Comfortaa';
+    font-size: 15.46px;
+}
+
+.location .locationimg {
+    margin-right: 23px;
+}
+
+.contact {
+    font-family: 'Comfortaa';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cimgs {
+    margin-right: 2px;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon p {
+    font-family: 'Comfortaa';
+    color: #004C8C;
+    font-weight: bold;
+    font-size: 19.32px;
+}
+
+.app a {
+    margin-left: 14px;
+    text-decoration: none;
+    font-family: 'Comfortaa';
+    color: #004C8C;
+    font-weight: bold;
+    font-size: 19.32px;
+    margin-top: 0px;
+}
+
+.app {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 7px;
+    margin-top: -18px;
+}
+
+.img {
+    background-color: #75e097bd;
+    height: 31.62px;
+    width: 30.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: -22px;
+}
+
+.img img {
+    height: 15.3px;
+    width: 14.14px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+.site-footer {
+    background-color: rgba(59, 177, 97, 0.2);
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+    /* Adjusted for responsiveness */
+    box-sizing: border-box;
+    /* Ensure padding is included in width */
+}
+
+.fimg {
+    width: 183px;
+    height: 80.2px;
+    margin-top: 20px;
+    margin-left: 25px;
+    /* Ensure units are specified */
+}
+
+.fimg1 {
+    width: 394px;
+    height: 236px;
+    margin-top: 96px;
+    margin-left: 30px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section h4 {
+    margin-bottom: 30px;
+    font-family: 'Comfortaa';
+    font-size: 19.32px;
+    color: #004C8C;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    line-height: 19.5px;
+}
+
+.footer-section ul li a {
+    color: #151515;
+    /* Ensure color is properly specified */
+    text-decoration: none;
+    font-family: 'Comfortaa';
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    color: #B3B3B3;
+    font-size: 15.46px;
+    font-family: 'Comfortaa';
+}
+
+.menu {
+    margin-top: 25px;
+}
+
+.software {
+    margin-top: 25px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+
+    .footer-content,
+    .contact,
+    .location,
+    .icon,
+    .app,
+    .contact-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fimg,
+    .fimg1,
+    .footer-section,
+    .contact-card {
+        width: auto;
+        /* Adjust width to fit mobile devices */
+        margin: 0 10px;
+        /* Add some horizontal margin for small screens */
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+
+    .cimgs {
+        margin-right: 0;
+        /* Adjust margin for mobile */
+    }
+}
+
+/* footer css end */

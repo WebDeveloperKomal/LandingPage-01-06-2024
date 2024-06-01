@@ -1,0 +1,1881 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: white;
+  
+}
+
+a:hover {
+  color: white;
+
+}
+
+.app-header {
+  background-color: #3BB161;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Ensures vertical alignment of items */
+}
+
+.app-header .logo img {
+  width: 132px;
+  height: 57.44px;
+  margin-left: 43px;
+}
+
+/* Navigation Styles */
+nav {
+  display: flex;
+  align-items: center;
+  /* Ensures vertical alignment of nav items */
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  /* Makes the list horizontal */
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  transition: background-color 0.3s;
+  font-size: 20px;
+  font-family: 'Comfortaa';
+  font-size: 20px;
+}
+
+/* nav ul li a:hover {
+    background-color: #2a8f5b;
+  } */
+.btn1 a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 37px;
+}
+
+.buttons button {
+  background-color: #004C8C;
+  color: white;
+  font-family: 'Comfortaa';
+  border: none;
+  /* Removes the default border */
+  font-weight: bold;
+  height: 37px;
+  width: 123px;
+  border-radius: 140px;
+  cursor: pointer;
+  margin: left 2px;
+  margin-right: 15px;
+}
+
+/* Style for the button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Container for the dropdown content to position it relative to the button */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Hidden content that will be displayed on hover */
+.dropdown-content {
+  /* display: none; */
+  position: absolute;
+  background-color: #3BB161;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Style the list to remove default browser styling */
+.dropdown-content ul {
+  list-style-type: none;
+  /* Removes default bullets */
+  margin: 0;
+  padding: 0;
+}
+
+/* Style each item */
+.dropdown-content ul li {
+  color: white;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+}
+
+/* Optional: Style the links within the dropdown */
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+@media (max-width: 768px) {
+
+  /* Adjustments for tablets and below */
+  .app-header {
+    flex-direction: column;
+    /* Stack items vertically */
+    padding: 10px;
+    /* Reduce padding */
+  }
+
+  .app-header .logo img {
+    margin-bottom: 10px;
+    /* Add space between logo and nav */
+  }
+
+  nav ul {
+    flex-direction: column;
+    /* Stack nav items vertically */
+    align-items: center;
+    /* Center-align the nav items */
+  }
+
+  nav ul li {
+    margin: 5px 0;
+    /* Reduce margin between nav items */
+  }
+
+  .buttons {
+    margin-top: 10px;
+    /* Add some space between nav and buttons */
+  }
+
+  .buttons button {
+    margin-right: 5px;
+    /* Reduce margin between buttons */
+    margin-left: 0;
+    /* Adjust left margin if necessary */
+    width: auto;
+    /* Make button width responsive */
+    padding: 0 10px;
+    /* Adjust padding */
+  }
+
+  .btn1 a {
+    text-decoration: none;
+    /* Removes the underline from the link */
+    color: white;
+    /* Matches the color to the button's text color */
+    display: block;
+    /* Makes the link fill the entire button area */
+    height: 100%;
+    /* Ensures the link covers the full height of the button */
+    width: 100%;
+    /* Ensures the link covers the full width of the button */
+    line-height: 37px;
+    /* Adjusts the line height to vertically center the text in the button */
+  }
+}
+
+@media (max-width: 480px) {
+
+  /* Adjustments for mobile phones */
+  nav ul li a {
+    font-size: 14px;
+    /* Further reduce font size for small screens */
+  }
+
+  .buttons button {
+    font-size: 14px;
+    /* Adjust button font size */
+    padding: 5px 10px;
+    /* Adjust button padding */
+  }
+
+  .btn1 a {
+    text-decoration: none;
+    /* Removes the underline from the link */
+    color: white;
+    /* Matches the color to the button's text color */
+    display: block;
+    /* Makes the link fill the entire button area */
+    height: 100%;
+    /* Ensures the link covers the full height of the button */
+    width: 100%;
+    /* Ensures the link covers the full width of the button */
+    line-height: 37px;
+    /* Adjusts the line height to vertically center the text in the button */
+  }
+}
+
+.hero {
+  /* width: 100%;  */
+  height: 614px;
+  display: flex;
+  justify-content: center;
+  /* Center the box horizontally */
+  align-items: center;
+  /* Center the box vertically */
+}
+
+.box {
+  width: 100%;
+  max-width: 1518px;
+  height: 614px;
+  background-color: rgba(0, 76, 140, 0.17);
+  display: flex;
+  /* justify-content: center;  */
+  /* align-items: center;  */
+  border-radius: 20px;
+  margin-top: 75px;
+}
+
+.box1 {
+  padding: 30px;
+}
+
+.box p {
+  font-size: 22px;
+  font-family: 'Comfortaa';
+  color: #004C8C;
+  /* padding: 20px; */
+}
+
+.box .p2 {
+  line-height: 57px;
+  font-weight: bold;
+  color: #3BB161;
+  font-size: 46px;
+}
+
+.box .p3 {
+  font-size: 22px;
+  font-family: 'Comfortaa';
+  line-height: 33px;
+}
+
+.p3 span {
+  color: #3BB161;
+}
+
+.mobile-number-input {
+  display: flex;
+  align-items: center;
+  background-color: #F2F2F2;
+  border-radius: 15px;
+  padding: 8px 12px;
+  width: 403px;
+  height: 65px;
+}
+
+.mobile-number-input input {
+  flex: 1;
+  font-size: 16px;
+  background-color: transparent;
+  color: #333;
+  padding: 0;
+  font-family: 'Comfortaa';
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  border-color: #3BB161;
+  font-family: 'Comfortaa';
+
+  &::placeholder {
+    color: #999;
+  }
+}
+
+.mobile-number-input button {
+  margin-left: 10px;
+  padding: 5px;
+  border: none;
+  background-color: #3BB161;
+  cursor: pointer;
+  width: 93px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.mobile-number-input button img {
+  height: 26px;
+  /* Adjust image height as needed */
+  width: 17px;
+  /* Adjust image width as needed */
+  transition: filter 0.2s ease-in-out;
+  /* Smooth transition for hover effect */
+  filter: grayscale(100%);
+  /* Initially grayscale image */
+}
+
+text {
+  color: #636363;
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  font-size: 10px;
+  margin-left: 38px;
+  line-height: 20px;
+}
+
+text {
+  color: #636363;
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  font-size: 11px;
+  margin-right: -31px;
+  margin-left: 57px;
+}
+
+.num {
+  display: flex;
+  justify-content: left;
+  margin-left: 27px;
+}
+
+.num num {
+  font: bold;
+  font-size: 14px;
+  font-family: 'Comfortaa';
+  margin-left: 52px;
+}
+
+.num num1 {
+  font: bold;
+  font-size: 14px;
+  font-family: 'Comfortaa';
+  margin-left: 0px;
+}
+
+.num img {
+  padding-inline: 14px;
+  margin-top: -34px;
+  height: 70px;
+}
+
+#img2 {
+  margin-left: 59px;
+  margin-bottom: 38px;
+}
+
+.box2 img {
+  width: 817px;
+  height: 678px;
+  /* margin-left: -123px; */
+  margin-top: -9px;
+}
+
+.hero2 .hero2p1 {
+  color: #3BB161;
+  font-size: 46px;
+  font-weight: bold;
+  line-height: 57px;
+  font-family: 'Comfortaa';
+  margin-left: 54px;
+}
+
+.hero2 .hero2p2 {
+  color: #004C8C;
+  font-family: 'Comfortaa';
+  margin-left: 54px;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.hero3 {
+  width: 100%;
+  /* Full width of its container */
+  display: flex;
+  justify-content: center;
+  /* Center the box horizontally */
+  align-items: center;
+  /* Center the box vertically */
+  /*padding: 50px 0;  Add some padding above and below */
+}
+
+.herobox3 {
+  /* width: 100%; Adjusted width for demonstration */
+  max-width: 1518px;
+  height: 475px;
+  /* Height of the box */
+  background-color: rgba(0, 76, 140, 0.17);
+  display: flex;
+  justify-content: center;
+  /* Center content horizontally */
+  align-items: center;
+  /* Center content vertically */
+  border-radius: 10px;
+  /* Added border radius */
+  /* padding: 20px;  */
+
+}
+
+.hero3img2 {
+  height: 323.49px;
+  width: 605px;
+  margin-right: 43px;
+}
+
+.hero3 .hero3img1 {
+  height: 625px;
+  width: 939px;
+  /* margin-right: -120px; */
+  margin-bottom: 153px;
+}
+
+.hero4p1 {
+  color: #3BB161;
+  font-size: 46px;
+  font-weight: bold;
+  font-family: 'Comfortaa';
+  margin-left: 54px;
+  line-height: 57px;
+}
+
+.hero4p2 {
+  color: #004C8C;
+  font-size: 22px;
+  font-family: 'Comfortaa';
+  margin-left: 54px;
+  line-height: 33px;
+}
+
+.hero5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.herobox5 {
+  width: 1514px;
+  height: 475px;
+  background-color: rgba(0, 76, 140, 0.17);
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: white;
+  width: 597px;
+  height: 63px;
+  border-radius: 15PX;
+  margin-top: 34px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn .thermal,
+.btn .a4,
+.btn .a5 {
+  display: inline-block;
+  width: 187px;
+  height: 50px;
+  line-height: 46px;
+  border: 2px solid #3BB161;
+  border-radius: 15px;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 22px;
+  color: #636363;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.btn .thermal:hover,
+.btn .a4:hover,
+.btn .a5:hover {
+  background-color: #3BB161;
+  color: white;
+}
+
+.hero5img2 {
+  margin-left: -338px;
+  margin-bottom: -73px;
+  height: 529px;
+}
+
+.imgs1 {
+  display: flex;
+  justify-content: flex-start;
+  position: sticky;
+}
+
+.imgs2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 82px;
+}
+
+.hero5img1 {
+  margin-left: -286px;
+  margin-top: 66px;
+  margin-right: 189px;
+}
+
+.hero5img3 {
+  height: 529px;
+  margin-right: -800px;
+}
+
+.hero5img4 {
+  margin-right: 76px;
+  margin-top: 75px;
+  margin-left: 670px;
+}
+
+.hero6 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.herobox6 {
+  width: 1516px;
+  height: 447px;
+  /* Height of the box */
+  background-color: rgba(59, 177, 97, 0.15);
+  display: flex;
+  justify-content: space-between;
+  /* Center content horizontally */
+  overflow-y: auto;
+  /* Allows vertical scrolling if the content overflows */
+  scrollbar-color: #3BB161 #D9D9D9;
+}
+
+.p {
+  padding: 20px;
+}
+
+.p p {
+  font-size: 22px;
+  font-family: 'Comfortaa';
+  color: #004C8C;
+  line-height: 33px;
+}
+
+.p .p2 {
+  line-height: 57px;
+  font-weight: bold;
+  color: #3BB161;
+  font-size: 46px;
+}
+
+.p.p3 {
+  font-size: 22px;
+  font-family: 'Comfortaa';
+  line-height: 33px;
+}
+
+.p .p3 span {
+  color: #3BB161;
+}
+
+/* Assuming the .p class is for a parent container and not directly related to the button's styling */
+.getstart {
+  display: flex;
+  width: 236px;
+  height: 63px;
+  border: none;
+  border-radius: 15px;
+  background-color: #3BB161;
+  justify-content: center;
+  align-items: center;
+}
+
+.getstart a {
+  display: flex;
+  /* Align text and image side by side */
+  justify-content: center;
+  /* Center content horizontally */
+  align-items: center;
+  /* Center content vertically */
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Comfortaa';
+  color: white;
+  height: 100%;
+}
+
+.getstart img {
+  width: 17px;
+  height: 26px;
+  margin-left: 10px;
+}
+
+.hero6 .imgscroll {
+  display: block;
+  width: 380px;
+  height: 484px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.text1 {
+  color: #3BB161;
+  font-size: 46px;
+  font-weight: bold;
+  font-family: 'Comfortaa';
+  margin-left: 54px;
+  width: 964px;
+}
+
+.text2 {
+  color: #3BB161;
+  font-size: 46px;
+  font-weight: bold;
+  font-family: 'Comfortaa';
+  margin-left: 54px;
+  line-height: 35px;
+  width: 461px;
+}
+
+.herobox7 {
+  display: flex;
+  /* width: 100%; */
+  justify-content: center;
+  max-width: 1516px;
+  margin-left: 27px;
+}
+
+.hero7btn {
+  background-color: #E8EAEA;
+  width: 1516px;
+  height: 99px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 14.28px;
+  align-items: center;
+}
+
+.hero7btn .billing,
+.hero7btn .inventory,
+.hero7btn .business,
+.hero7btn .bonus {
+  display: inline-block;
+  padding: 10px 20px;
+  /* Add padding to make the links look more like buttons */
+  line-height: 31.4px;
+  border: 2px solid transparent;
+  /* Add a border that matches the background on hover */
+  border-radius: 15px;
+  font-family: 'Comfortaa';
+  font-size: 20.94px;
+  color: #636363;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  /* Smooth transition for hover effect */
+}
+
+/* Hover Effects */
+.hero7btn .billing:hover,
+.hero7btn .inventory:hover,
+.hero7btn .business:hover,
+.hero7btn .bonus:hover {
+  background-color: white;
+  /* Background color on hover */
+  color: #414042;
+  /* Text color on hover */
+  border-color: #414042;
+  /* Border color on hover to match the text color */
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* Adjust this value as needed */
+}
+
+.card .card2 {
+  width: 400.75px;
+  height: 269px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #8f9292;
+  border-radius: 9.2px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card p {
+  margin: 10px 0px;
+  font-size: 16px;
+  color: #333;
+  height: 52px;
+  width: 401px;
+  background-color: #3BB161;
+  border-bottom: 9.2px;
+  text-align: center;
+  border-radius: 0px 0px 9.2px 9.2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20.49px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  list-style-type: disc;
+  padding: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  height: 291px;
+  width: 403px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  background-color: #3BB161;
+}
+
+.dropdown-menu li {
+  padding: 9px 22px;
+  margin-left: 35px;
+  color: white;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  margin-left: -14px;
+  font-family: 'Comfortaa';
+}
+
+.dropdown1 {
+  position: relative;
+  /* Make the dropdown relative to its parent */
+  display: inline-block;
+  /* Allow the dropdown to sit inline with other elements */
+}
+
+.dropdown-toggle1 {
+  cursor: pointer;
+  /* Indicate clickable area */
+}
+
+.dropdown-menu1 {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  list-style-type: disc;
+  padding: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  height: 84px;
+  width: 153px;
+}
+
+.dropdown1:hover .dropdown-menu1 {
+  display: block;
+  background-color: #3BB161;
+}
+
+.dropdown-menu1 li {
+  padding: 9px 22px;
+  margin-left: 35px;
+}
+
+.dropdown-menu1 li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  margin-left: -14px;
+  font-family: 'Comfortaa';
+}
+
+text3 {
+  color: #3BB161;
+  font-size: 46px;
+  font-weight: bold;
+  font-family: 'Comfortaa';
+  line-height: 100px;
+  margin-left: 54px;
+}
+
+.hero8 {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.herobox8 {
+  width: 1514px;
+  height: 475px;
+  background-color: #004d8c1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.section {
+  display: none;
+}
+
+.section.show {
+  display: block;
+}
+
+/* General Styles */
+.hero8 {
+  font-family: 'Comfortaa';
+}
+
+
+.container {
+  max-width: 960px;
+}
+
+.row {
+  margin: 0 auto;
+}
+
+/* List Group */
+#list-example {
+  padding: 0;
+  margin-left: -254px;
+  font-family: 'Comfortaa';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -8px;
+}
+
+.list-group-item {
+  cursor: pointer;
+  /* Change mouse cursor on hover */
+  transition: background-color 0.2s ease-in-out;
+  margin-bottom: 8px;
+  color: #414042;
+  width: 278px;
+  height: 99px;
+  border-radius: 14.32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.list-group-item {
+  cursor: pointer;
+  /* Change mouse cursor on hover */
+  transition: background-color 0.2s ease-in-out;
+}
+
+.list-group-item+.list-group-item {
+  border-top-width: 0;
+  border-radius: 10px;
+  color: #414042;
+}
+
+.list-group-item a {
+  color: #414042;
+}
+
+.list-group-item:hover,
+.list-group-item.active {
+  background-color: #3bb16046;
+  color: #414042;
+  width: 278px;
+  height: 107px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14.32px;
+
+}
+
+/* Content Area & Sections */
+.content-area {
+  padding: 20px;
+  /* Spacing between list and content */
+}
+
+.section {
+  display: none;
+  /* Initially hide all sections */
+  margin-bottom: 20px;
+  /* Spacing between sections */
+  color: black;
+}
+
+.section.show {
+  display: block;
+}
+
+.section img {
+  margin-left: 188px;
+  display: flex;
+  justify-content: center;
+}
+
+/* 
+.section p {
+
+  color: black;
+  border-radius: 0 0 10px 10px;
+  text-align: left;
+  font-size: 16px;
+  font-family: 'Comfortaa';
+  margin-left: 16px;
+}.section .pi {
+  height: 124px;
+  width: 829px;
+  background-color: #3bb16046;
+  color: black;
+  margin-left: -32px;
+  border-radius: 0 0 10px 10px;
+  text-align: left;
+  font-size: 16px;
+  font-family: 'Comfortaa';
+} */
+.col-md-8 {
+  background-color: white;
+  justify-content: center;
+  border-radius: 10px;
+  width: 829px;
+  height: 430px;
+  margin-bottom: 30px;
+  margin-top: -10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.col-md-4 {
+  flex: 0 0 auto;
+  width: 10.333333%;
+}
+
+.getstart1,
+.getstart2,
+.getstart3,
+.getstart4 {
+  width: 210px;
+  height: 63px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #3BB161;
+  margin-top: -2px;
+  margin-left: -3px;
+  border: none;
+}
+
+.getstart1 a,
+.getstart2 a,
+.getstart3 a,
+.getstart4 a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: 'Comfortaa';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section p {
+  color: black;
+  border-radius: 0 0 10px 10px;
+  text-align: left;
+  font-size: 16px;
+  font-family: 'Comfortaa';
+  background-color: #3bb16046;
+  height: 124px;
+  width: 829px;
+  padding-left: 16px;
+  /* Add padding to the left of the text */
+  padding-right: 16px;
+  /* Add padding to the right of the text */
+  padding-top: 10px;
+  /* Optionally, add padding to the top of the text */
+  padding-bottom: 10px;
+  /* Optionally, add padding to the bottom of the text */
+  margin-left: -32px;
+  /* Adjusted as per your requirement */
+}
+
+.getstratimg1 {
+  margin-left: 2px;
+}
+
+text6 {
+  color: #004C8C;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Comfortaa';
+  margin-left: 54px;
+}
+
+text7 {
+  color: #3BB161;
+  font-weight: bold;
+  font-size: 46px;
+  font-family: 'Comfortaa';
+  margin-left: 54px;
+}
+
+text71 {
+  color: #3BB161;
+  font-weight: bold;
+  font-size: 46px;
+  font-family: 'Comfortaa';
+  margin-left: 54px;
+}
+
+.hero9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.herobox9 {
+  width: 1514px;
+  height: 475px;
+  background-color: #3bb1602f;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.icontext {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  margin-top: 106px;
+  margin-bottom: 86px;
+  margin-left: -15px;
+}
+
+.icontext92 {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  margin-top: 106px;
+  margin-bottom: 86px;
+  margin-left: -15px;
+}
+
+.hero9sec1 {
+  display: flex;
+  margin-left: -23px;
+}
+
+.herobox91 {
+  display: block;
+  width: 407.5px;
+}
+
+.herobox92 {
+  display: block;
+  width: 327.5px;
+  margin-top: 31px;
+}
+
+.icontext img {
+  height: 39px;
+  width: 32px;
+}
+
+.icontext .icontextimg,
+.icontext92 .icontextimg92 {
+  background-color: #3bb16048;
+  border-radius: 10px;
+  height: 65px;
+  width: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icontext .icontextimg {
+  background-color: #3bb16048;
+  border-radius: 10px;
+  height: 65px;
+  width: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icontext p {
+  font-size: 17px;
+  color: black;
+  font-family: 'Comfortaa';
+  font-weight: bold;
+}
+
+.herobox2.incontext92 p {
+  font-size: 17px;
+  color: black;
+  font-family: 'Comfortaa';
+  font-weight: bold;
+}
+
+.hero9img {
+  border-radius: 14px
+}
+
+text8,
+text81 {
+  color: #3BB161;
+  font-family: 'Comfortaa';
+  font-size: 46px;
+  margin-left: 54px;
+  font-weight: bold;
+  line-height: 57px;
+}
+
+.hero10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.herobox10 {
+  width: 1514px;
+  height: 475px;
+  background-color: #004d8c1c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+text9 {
+  color: #3BB161;
+  font-family: 'Comfortaa';
+  font-size: 46px;
+  margin-left: 54px;
+  font-weight: bold;
+  line-height: 57px;
+}
+
+.side1 {
+  display: block;
+  margin-left: 48px;
+  margin-top: 0px;
+}
+
+.side1 button {
+  width: 674px;
+  height: 98px;
+  border: none;
+  background-color: white;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.side1 button a {
+  font-family: 'Comfortaa';
+  color: #414042;
+  font-size: 25px;
+}
+
+.side2 {
+  display: block;
+  margin-right: 46px;
+  margin-top: 0px;
+}
+
+.side2 img {
+  border-radius: 15px;
+  height: 439px;
+  width: 710px;
+}
+
+.sidde2 .side2img2 {
+  height: 103px;
+  width: 71px;
+}
+
+.hero11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.herobox11 {
+  width: 1514px;
+  height: 574px;
+  background-color: #4ab86228;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card11 {
+  background-color: white;
+  margin: 10px;
+  /* Space between cards */
+  text-align: center;
+  border-radius: 9.6px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+  /* Cards will grow to fill the row */
+}
+
+.cr1card {
+  background-color: white;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+  border-radius: 14.56px;
+}
+
+.cards-row11 {
+  display: flex;
+  height: 230px;
+  /* width: 400px; */
+}
+
+.cards-row112 {
+  display: flex;
+  height: 299px;
+}
+
+.card11 p {
+  font-family: 'Comfortaa';
+  font-size: 20.49px;
+  text-align: left;
+  margin-top: 58px;
+  font-weight: bold;
+}
+
+.cr1card p {
+  font-family: 'Comfortaa';
+  font-size: 20.49px;
+  text-align: left;
+  margin-top: 58px;
+  font-weight: bold;
+}
+
+.cardrow1img {
+  background-color: #4ab86228;
+  height: 61px;
+  width: 61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.crd1cardimg {
+  background-color: #4ab86228;
+  height: 61px;
+  width: 61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.cardimg112 {
+  height: 32px;
+  width: 31px;
+}
+
+.cardimg111 {
+  height: 32px;
+  width: 31px;
+}
+
+.hero12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.herobox12 {
+  width: 1514px;
+  height: 480px;
+  background-color: #004c8c17;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.hero12section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.hero12p {
+  color: #3BB161;
+  font-size: 46px;
+  font-weight: bold;
+  line-height: 57px;
+  font-family: 'Comfortaa';
+  margin-left: 16px;
+  /* margin-bottom: 303px; */
+}
+
+.herobox12 img {
+  height: 506px;
+  width: 506px;
+}
+
+.mobile-number-input1 {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  padding: 13px 14px;
+  width: 403px;
+  height: 65px;
+  margin-left: 54px;
+}
+
+.mobile-number-input1 input {
+  flex: 1;
+  font-size: 16px;
+  background-color: transparent;
+  color: #333;
+  padding: 0;
+  font-family: 'Comfortaa';
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  border-color: #3BB161;
+  font-family: 'Comfortaa';
+
+  &::placeholder {
+    color: #999;
+  }
+}
+
+.mobile-number-input1 button {
+  margin-left: 10px;
+  padding: 5px;
+  border: none;
+  background-color: #3BB161;
+  cursor: pointer;
+  width: 93px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.mobile-number-input1 button img {
+  height: 26px;
+  /* Adjust image height as needed */
+  width: 17px;
+  /* Adjust image width as needed */
+  transition: filter 0.2s ease-in-out;
+  /* Smooth transition for hover effect */
+  filter: grayscale(100%);
+  /* Initially grayscale image */
+}
+
+.hero12p1 {
+  font-size: 22px;
+  font-family: 'Comfortaa';
+  margin-left: -161px;
+}
+
+.appbtns {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-left: -137px;
+}
+
+.appbtns img {
+  height: 34px;
+  width: 112px;
+  margin-left: 7px;
+}
+
+.textrates {
+  display: flex;
+  margin-right: 193px;
+}
+
+.textrates textrate {
+  color: #636363;
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  font-size: 11px;
+  margin-right: -31px;
+  margin-left: 57px;
+}
+
+.textrates textrate1 {
+  color: #636363;
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  font-size: 11px;
+  margin-right: -31px;
+  margin-left: 57px;
+}
+
+.rates {
+  display: flex;
+  justify-content: left;
+  margin-left: -174px;
+  margin-top: 5px;
+}
+
+.rates number {
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Comfortaa';
+  margin-left: 52px;
+}
+
+.rates number1 {
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Comfortaa';
+  margin-left: 0px;
+}
+
+.rates img {
+  padding-inline: 14px;
+  margin-top: -34px;
+  height: 61px;
+  width: 29px;
+}
+
+.star .starimg {
+  height: 5px;
+  width: 39px;
+  margin-left: -120px;
+  margin-bottom: 21px;
+}
+
+text10 {
+  display: flex;
+  font-size: 46px;
+  font-weight: bold;
+  color: #3BB161;
+  font-family: 'Comfortaa';
+  justify-content: center;
+  align-items: center;
+}
+
+text11 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: #004C8C;
+  font-family: 'Comfortaa';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.faq-question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+  margin-left: 54px;
+  font-family: 'Comfortaa';
+  font-size: 24px;
+  font-weight: bold;
+  color: #595959;
+  margin-right: 30px;
+  gap: 1159px;
+}
+
+.faq-question:hover {
+  color: #151515;
+}
+
+.faq-arrow {
+  transition: transform 0.3s ease;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, margin 0.3s ease;
+  font-size: 14px;
+  width: 100%;
+}
+
+.underline {
+  height: 2px;
+  background-color: #B6B6B6;
+  width: 95%;
+  margin-left: 54px;
+  transition: margin-top 0.3s ease;
+}
+
+.expanded .faq-arrow {
+  transform: rotate(90deg);
+}
+
+.expanded .faq-answer {
+  max-height: 100px;
+  /* Adjust as needed for content */
+  margin-top: 10px;
+  max-height: 42px;
+  margin-left: 54px;
+  font-family: 'Comfortaa';
+  color: #333;
+  width: 1478px;
+  font-size: 18px;
+}
+
+.faq-arrowimg {
+  display: flex;
+  justify-content: end;
+}
+
+.expanded .underline {
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start footer section */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+.site-footer {
+  background-color: rgba(59, 177, 97, 0.2);
+  color: white;
+  padding: 20px 0;
+  width: 1584px;
+  height: 647px;
+}
+
+.fimg {
+  width: 183px;
+  height: 80;
+}
+
+.fimg1 {
+  width: 394px;
+  height: 236px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section h4 {
+  margin-bottom: 15px;
+  font-family: 'Comfortaa';
+  font-size: 19.32px;
+  color: #004C8C;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li a {
+  color: 151515;
+  text-decoration: none;
+  font-family: 'Comfortaa';
+
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  color: #B3B3B3;
+  font-size: 15.46px;
+  font-family: 'Comfortaa';
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    margin-bottom: 20px;
+  }
+}
+
+.footerimgs {
+  display: block;
+}
+
+.contact-cards {
+  display: block;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.contact-card {
+  background-color: #fff;
+  font-family: 'Comfortaa';
+  color: #151515;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  width: 372px;
+}
+
+.contact-cards .contact-card .cdh1 {
+  font-family: 'Comfortaa';
+  color: #004C8C;
+  font-size: 19.12px;
+
+}
+
+.contact-card p {
+  margin: 0 0 10px;
+  line-height: 1.6;
+  font-family: 'Comfortaa';
+}
+
+.contact-card p:last-child {
+  margin-bottom: 0;
+  font-family: 'Comfortaa';
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location p {
+  margin: 0 0 10px;
+  line-height: 1.6;
+  font-family: 'Comfortaa';
+  font-size: 15.46px;
+}
+
+.location .locationimg {
+  margin-right: 23px;
+}
+
+.contact {
+  font-family: 'Comfortaa';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cimgs {
+  margin-right: 2px;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon p {
+  font-family: 'Comfortaa';
+  color: #004C8C;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.app1 a {
+  margin-left: 11px;
+  text-decoration: none;
+  font-family: 'Comfortaa';
+  color: #004C8C;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.app1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -2px;
+}
+
+.img {
+  background-color: #3BB161;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+.site-footer {
+  background-color: rgba(59, 177, 97, 0.2);
+  color: white;
+  padding: 20px 0;
+  width: 100%;
+  /* Adjusted for responsiveness */
+  box-sizing: border-box;
+  /* Ensure padding is included in width */
+}
+
+.fimg {
+  width: 183px;
+  height: 80px;
+  /* Ensure units are specified */
+}
+
+.fimg1 {
+  width: 394px;
+  height: 236px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section h4 {
+  margin-bottom: 15px;
+  font-family: 'Comfortaa';
+  font-size: 19.32px;
+  color: #004C8C;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li a {
+  color: #151515;
+  text-decoration: none;
+  font-family: 'Comfortaa';
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  color: #151515;
+  font-size: 15.46px;
+  font-family: 'Comfortaa';
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+
+  .footer-content,
+  .contact,
+  .location,
+  .icon,
+  .app,
+  .contact-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fimg,
+  .fimg1,
+  .footer-section,
+  .contact-card {
+    width: auto;
+    /* Adjust width to fit mobile devices */
+    margin: 0 10px;
+    /* Add some horizontal margin for small screens */
+  }
+
+  .footer-section {
+    margin-bottom: 20px;
+  }
+
+  .cimgs {
+    margin-right: 0;
+  }
+}
+
+.downloadimg1 {
+  margin-right: 6px;
+}
+
+.downloadimg1 {
+  margin-right: 6px;
+}
+
+.product {
+  margin-top: 2px;
+}
