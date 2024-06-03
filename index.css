@@ -575,7 +575,7 @@ h6 {
 
 .box7 {
     width: 100%;
-    width: 1074px;
+    width: 1044px;
     height: 464px;
     background-color: white;
     margin-left: 350px;
@@ -588,11 +588,10 @@ h6 {
 }
 
 .image-set1 {
-    width: 100%;
-    width: 1074px;
+    width: 1044px;
     height: 163px;
     background-color: rgba(59, 177, 97, 0.15);
-    margin-top: 14px;
+    margin-top: 15px;
     border-radius: 10px;
 }
 
@@ -852,9 +851,16 @@ h6 {
     position: absolute;
 }
 
+.text_question p {
+    padding-left: 109px;
+    font-size: 24px;
+    font-family: 'Comfortaa';
+}
+
+
+
 
 /* footer css start */
-
 
 .site-footer {
     background-color: rgba(59, 177, 97, 0.2);
@@ -901,8 +907,8 @@ h6 {
 
 .footer-bottom {
     text-align: center;
-    margin-top: 20px;
-    color: #B3B3B3;
+    margin-top: -24px;
+    color: black;
     font-size: 15.46px;
     font-family: 'Comfortaa';
 }
@@ -1008,7 +1014,7 @@ h6 {
 }
 
 .app a {
-    margin-left: 14px;
+    margin-left: 4px;
     text-decoration: none;
     font-family: 'Comfortaa';
     color: #004C8C;
@@ -1096,8 +1102,8 @@ h6 {
 
 .footer-bottom {
     text-align: center;
-    margin-top: 20px;
-    color: #B3B3B3;
+    margin-top: -24px;
+    color: black;
     font-size: 15.46px;
     font-family: 'Comfortaa';
 }
